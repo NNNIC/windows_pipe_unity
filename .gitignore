@@ -36,3 +36,8 @@
 /**/tmp/
 /**/temp/
 /**/x64/
+*.VC.db
+.suo
+*.pdb
+*.exe
+*.dll
