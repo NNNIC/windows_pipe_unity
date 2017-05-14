@@ -64,10 +64,6 @@ namespace winpipe_sample
     {
         const string PIPENAME_PASS1_A =	"\\\\.\\pipe\\testpipe_1A";
         const string PIPENAME_PASS1_B =	"\\\\.\\pipe\\testpipe_1B";
-        //const string PIPENAME_PASS2_A =	"\\\\.\\pipe\\testpipe_2A";
-        //const string PIPENAME_PASS2_B =	"\\\\.\\pipe\\testpipe_2B";
-        //const string PIPENAME_PASS3_A =	"\\\\.\\pipe\\testpipe_3A";
-        //const string PIPENAME_PASS3_B =	"\\\\.\\pipe\\testpipe_3B";
 
         static void Main(string[] args)
         { 
@@ -80,7 +76,8 @@ namespace winpipe_sample
                 winpipe.Create(PIPENAME_PASS1_B,PIPENAME_PASS1_A);
             }
 
-            Console.WriteLine("※ 'I'キー押下でメッセージ入力");
+            //Console.WriteLine("※ 'I'キー押下でメッセージ入力");
+            Console.WriteLine("###  Input 'I' for input ###");
 
             while (true)
 	        {
