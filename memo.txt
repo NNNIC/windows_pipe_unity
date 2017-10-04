@@ -10,5 +10,5 @@ winpipe_unityProject - unity 5.5
 
 
 Note #1: For load dll, the path environment value is modified at winpipe_work.Init.
-Note #2: Pipe name should be follow the windows pipe name notation.
+Note #2: Pipe name should follow the windows pipe name notation.
 
